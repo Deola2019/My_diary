@@ -1,0 +1,85 @@
+html { 
+    background: url(img/pic2.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.signinbox {
+  width: 320px;
+  height: 420px;
+  background:rgba(0, 50, 0, 0.7);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 10%;
+  padding: 70px 30px;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  top:-50px;
+  left: calc(50% - 50px);
+
+}
+    
+h1 {
+  margin:0;
+  padding:0 0 20;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+.signinbox p {
+  margin:0;
+  padding:0;
+  font-weight: bold;
+  color: white;
+}
+.signinbox input {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+.signinbox input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  background:  transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+}
+.signinbox input[type="submit"]{
+background: whitesmoke;
+height: 40px;
+font-size: 18px;
+border-radius: 20px;
+border:none;
+
+}
+.signinbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: brown;
+}
+.signinbox a {
+  font-size: 12px;
+  color:black;
+  line-height: 20px;
+}
+.signinbox a:hover
+{
+  color: brown;
+}
+
